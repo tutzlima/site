@@ -293,8 +293,8 @@ Um vetor só pode armazenar, por exemplo, dados numéricos inteiros. Outro, apen
 
 A respeito do segundo item, olhe a tabela a seguir:
 
-|1L|2L|3L|4L
-|---|---|---|---|
+|1L|2L|3L|4L|
+|:---:|:---:|:---:|:---:|
 
 Perceba: Há somente uma dimensão, **uma linha** com **quatro colunas** e **somente um tipo de dado**. Isso é um vetor.
 
@@ -303,7 +303,7 @@ O nosso exemplo anterior `c` também é um vetor!
 Um último exemplo:
 
 |Arthur|Ana|Beatriz|Paulo|
-|---|---|---|---|
+|:---:|:---:|:---:|:---:|
 
 Uma dimensão e um tipo de dado.
 
