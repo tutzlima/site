@@ -7,6 +7,12 @@
     <title>tutzlima</title>
 </head>
 <body>
+    <h1>Habilitar/Desabilitar Áudio</h1> <!-- Muito provável que isso vire um botão lá na frente -->
+        <audio preload="auto" controls loop>
+            <p>Escolha uma musiquinha</p>
+            <source src="midias/White-Hats-Wayne-Jones.mp3" type="audio/mpeg">
+            <source src="midias/Your-Suggestions-Unicorn-Heads.mp3" type="audio/mpeg">
+        </audio> <!-- mp3, wav, OGG -->
     <h1>Apresentação</h1>
         <h2><a href="files/README.md">Markdown de Apresentação do GitHub</a></h2>
         <h2>Repositórios públicos</h2>
@@ -44,8 +50,13 @@
                 </ul>
             <h5>Vídeos</h5>
                 <ul>
-            <li><a href="link_youtube">Durkheim por Raquel Weiss</a></li>
-            <li><a href="link_youtube">Weber por Pieirucci</a></li>
+            <li><a href="link_youtube">Durkheim por Raquel Weiss</a></li><br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BeK3FDE_Iy0?si=vQd1cizOSQOkEBJy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <li><a href="link_youtube">Weber por Pieirucci</a></li></br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wDEVx65oa3s?si=p3ns9F-hOdDsXW-i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <li><a href="https://www.youtube.com/embed/eJzYJzhoD5I?si=J91fy0RUcz9mmjaT">video deletar</a></li><br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eJzYJzhoD5I?si=J91fy0RUcz9mmjaT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p><a href="pagina_deletar.html">Clique aqui para ver apenas o vídeo</a></p>
                 </ul>
             <h5>Traduções/OCR'S</h4>
                     <p>
@@ -70,7 +81,11 @@
     <h2>Contatos</h2>
         <ul> <!-- Essas imagens, ou você tem que modificar no Gimp (que é a preferência...)
                   ou trate  de reduzí-las com o CSS depois -->
+                  <!-- Além disso, é muito interessante que você construa versões de diferentes
+                       tamanhos e use a tag <picture> no lugar de img simplesmente, assim
+                        as imagens vão se ajustar automaticamente à proporção da tela do navegador! -->
             <li><img src="imagens/gmail.ico" alt=""><a href="mailto/arthurlimareserva@gmail.com">Gmail</a></li>
             <li><img src="imagens/github.ico" alt=""><a href="https://github.com/tutzlima">GitHub</a></li>
+            <li><img src="imagens/lattes.png" alt="logo lattes"><a href="http://lattes.cnpq.br/2709096118053654">Lattes</a></li>
         </ul>
 </html>
