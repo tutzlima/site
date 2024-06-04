@@ -4,162 +4,115 @@
 <!-- &lt & &gt; representam "<" e ">" quando desejar imprimir um <code> de html na página,
     assim o navegador não tenta interpretar essas tags-->
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-    <style>
-        body{
-            background-color: rgb(72, 38, 72); 
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 20px;
-            color: rgb(209, 251, 255);
-        }
-
-        h2{
-            color: aquamarine;
-        }
-
-        pre code {
-            display: block;
-            padding: 10px;
-            background-color: #26041c;
-            color: rgb(144, 103, 187);
-        }
-
-    </style>
-    <title>pagina testes</title>
-</head>
-<body>
-    <a style="color: rgb(55, 40, 37);" href="css_estudos.html">Volte para página <code>css_estudos.html</code></a>
-    <!-- Explicando a lógica de títulos, h1, h2, h3...-->
-
-    <h1>Max Weber: A Ética Protestante e o Espírito do Capitalismo</h1>
-        <h2>Sumário</h2>
-        <!-- Com os "h's" a gente tinha mais controle dos níveis!-->
-            <p>Poderia ser feito com os "h" ou com listas!</p> 
-            <h3>
-                <ol type="I"> <!-- Lista ordenada -->
-                    <li>SUA MÃE........................</li> <!-- Elemento da lista -->
-                    <li>TU PAPA..........................</li>
-                    <li>idontwannatalkrightnow........</li>
-                    <li>ijuswannawatchtv...................</li>
-                </ol>
-        <h2>Introdução</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet saepe animi voluptatum ad. Quis dolorem dicta veritatis doloribus provident nesciunt placeat, molestiae quos a, nemo esse iure quaerat, sunt odio.</p> <!-- Parágrafo de lerolero -->
-            <h3>Pitacos do Editor</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eligendi consequuntur labore ut praesentium quia illo ipsam odio dignissimos iste sed exercitationem quasi nihil at, atque consequatur iure explicabo quod!</p> <!-- Parágrafo de lerolero -->
-        <h2>Prefácio a edição milanesa</h2>
-            <h3>Sobre o método</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eos aspernatur totam labore odit error, consectetur quo accusantium beatae commodi aperiam repellat provident perspiciatis ut laboriosam atque, blanditiis vel ipsum.</p> <!-- Parágrafo de lerolero -->
-            <h3>limitações da obra</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae molestias, nemo aspernatur mollitia recusandae quisquam iusto libero reprehenderit doloribus odit enim nisi ipsa aut a facere est eum rem necessitatibus.</p> <!-- Parágrafo de lerolero -->
-        <h2>A Ética Protestante e o Espírito do Capitalismo</h2>
-            <h3>PARTE 1:<br> <!-- Quebra de linha --> O PROBLEMA</br></h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, ut tenetur doloribus quia quae, ex rem voluptatibus optio accusantium, dicta temporibus obcaecati praesentium nobis similique ea tempore autem laboriosam iusto.</p> <!-- Parágrafo de lerolero -->
-
-    <h1>Formatação de textos</h1>
-        <ul>
-            <li>Tag <b>Não semântica</b></li> <!-- Ou seja, não tem sentido, apenas FORMA (CSS)-->
-            <li>Tag <STROng>semântica</STROng> e <STROng>com forma!</STROng></li>
-            <li>Para o <i>itálico</i>, usamos a tag "i" <STROng>(não semântica)</STROng></li>
-            <li>A corra é a tag <em>"EM"</em> <STROng>(semântica)</STROng></li>
-        </ul>
-
-        <h1>Demais formatações em HTML5</h1>
-        <h2>Marcações</h2>
-        <ul>
-            <li>Pode-se usar a tag 
-                <mark style="background-color: cadetblue;">mark</mark> <!-- Parâmetro de CSS -->
-                para simular um marca texto.
-            </li>
-            <li>Caso deseje aplicar esse "style" em demais tags "mark", você precisa criar uma tag "style" no cabeçário, criar um <em>seletor</em> para tag e passar o respectivo parâmetro, que nesse caso é <STROng>"background-color"</STROng>.</li>
-            <li><ins>Texto inserido/sublinhado com a tag correta</ins></li>
-            <li><del>Texto deletado/a ser desconsiderado</del></li>
-            <li>Sobrescrito (como 2<sup>1</sup>) & subscrito(H<sub>2</sub>O)</li>
-            <li>Código-fonte pré-formatado com "code" e "pre", como: 
-                <pre> <!-- Deixa "alinhado à esquerda" (por aí) sem tem que ficar dando Shift+<- -->
-                    <code> <!-- Bloco de Código -->
-            # Resumir o dataset
-            
-            library(tidyverse)
-            
-            dados %>% 
-                glimpse()
-                    </code>
-                </pre>
-            </li>
-            <li>Citação simples: <q>mame-me</q></li> <!-- quote -->
-            <li>Citação complexa utiliza a tag "blockquote"</li>
-            <li>Observe, segundo Engels (2019):</li>
-            <blockquote cite="https://www.youtube.com/watch?v=eJzYJzhoD5I">Morgan, que passou grande parte de sua vida entre os iroqueses que ainda hoje habitam o Estado de Nova York e foi adotado por uma de suas tribos (a dos senecas), encontrou entre eles um sistema de parentesco que estava em contradição com suas relações familiares reais.</blockquote> <!-- Citação do Engels -->
-            <li>Você também consegue criar abreviações no <abbr title="Hyper Text Marked Language">HTML</abbr>, como <abbr title="mame-me">MMM.</abbr></li>
-        </ul>
-        <h2>Tamanho do texto</h2>
-        <ul>
-            <li><big>Texto grande</big> com a tag "big", que está obsoleta!</li>
-            <li><small>Texto pequeno</small> com a tag "small" - que, pelo menos por enquanto, não está obsoleta.</li>
-        </ul>
-        <h2>Juntando listas</h2>
-        <ol>
-            <li>coisas de Deus</li>
-                <ul type = "square">
-                    <li>agua</li>
-                    <li>bolo sem recheio de abacaxi/côco</li>
-                    <li>pecado</li>
-                </ul>
-            <li>coisas que ñ são de God</li>
-                <ul type = "square">
-                    <li><abbr title="filho primogênito de satanás">hegel</abbr></li> <!-- hablei -->
-                    <li>heiddeger</li>
-                    <li>carne de feijão</li>
-                </ul>
-
-        </ol>
-        <h2>Lista de definições</h2>
-        <dl>
-            <dt>Termo</dt>
-            <dd>Descrição</dd>
-            <dt>hegel</dt>
-            <dd>filho primogênito de satanás</dd>
-        </dl>
-        <!-- Links-->
-        <h2>Links e Âncoras</h2>
-            <p><a href="https://www.youtube.com/watch?v=eJzYJzhoD5I" target="_blank">meu repo no github</a></p>
-            <p>não agr sem sacanagem, a página do github <a href="https://github.com/tutzlima" target="_blank">aqui</a></p>
-        <h2>Links Internos</h2>
-            <p>Acesso a minha <a href="segunda_pagina.html" target="_blank" rel="next">segunda página</a></p>
-            <p>você também consegue fazer essa bucetinha com <em>pastas</em>, basta indicar "caminho/arquivo.extensão"</p>
-            <p><a href="https://github.com/tutzlima" target="_self">ó o github again</a></p>
-
-        <h2>Os  textos acima estão no estilo "inline"</h2>
-        <p>O método inline para alterar o estilo das tags não é o melhor, pois dificulta a manutenção do código.</p>
-        <h2>CSS Local ou Interno</h2>
-            <p>Foi o que fizemos no <code>head</code> do HTML do nosso site, observe:</p>
-            <pre>
-                <code class="language-html">
-                    &lt;!DOCTYPE html&gt;
-                    &lt;html lang="pt-BR"&gt;
-                    &lt;head&gt;
-                        &lt;meta charset="UTF-8"&gt;
-                        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-                        &lt;link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon"&gt;
-                        &lt;style&gt;
-                            body {
-                                background-color: rgb(72, 38, 72);
-                                font-family: Arial, Helvetica, sans-serif;
-                                color: bisque;
-                            }
-                        &lt;/style&gt;
-                        &lt;title&gt;pagina testes&lt;/title&gt;
-                    &lt;/head&gt;
-                    &lt;body&gt;
-                        &lt;!-- Conteúdo da sua página vai aqui --&gt;
-                    &lt;/body&gt;
-                    &lt;/html&gt;
-                </code>
-            </pre>
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon"> <!-- Nosso ícone feio -->
+        <title>Estudos</title> <!-- Título da página-->
+    </head>
+    <body>
+        <a style="color: rgb(55, 40, 37);" href="css_estudos.html">Volte para página <code>css_estudos.html</code></a>
+        <!-- Explicando a lógica de títulos, h1, h2, h3...-->
+    
+        <h1>Max Weber: A Ética Protestante e o Espírito do Capitalismo</h1>
+            <h2>Sumário</h2>
+            <!-- Com os "h's" a gente tinha mais controle dos níveis!-->
+                <p>Poderia ser feito com os "h" ou com listas!</p> 
+                <h3>
+                    <ol type="I"> <!-- Lista ordenada -->
+                        <li>SUA MÃE........................</li> <!-- Elemento da lista -->
+                        <li>TU PAPA..........................</li>
+                        <li>idontwannatalkrightnow........</li>
+                        <li>ijuswannawatchtv...................</li>
+                    </ol>
+            <h2>Introdução</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet saepe animi voluptatum ad. Quis dolorem dicta veritatis doloribus provident nesciunt placeat, molestiae quos a, nemo esse iure quaerat, sunt odio.</p> <!-- Parágrafo de lerolero -->
+                <h3>Pitacos do Editor</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eligendi consequuntur labore ut praesentium quia illo ipsam odio dignissimos iste sed exercitationem quasi nihil at, atque consequatur iure explicabo quod!</p> <!-- Parágrafo de lerolero -->
+            <h2>Prefácio a edição milanesa</h2>
+                <h3>Sobre o método</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eos aspernatur totam labore odit error, consectetur quo accusantium beatae commodi aperiam repellat provident perspiciatis ut laboriosam atque, blanditiis vel ipsum.</p> <!-- Parágrafo de lerolero -->
+                <h3>limitações da obra</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae molestias, nemo aspernatur mollitia recusandae quisquam iusto libero reprehenderit doloribus odit enim nisi ipsa aut a facere est eum rem necessitatibus.</p> <!-- Parágrafo de lerolero -->
+            <h2>A Ética Protestante e o Espírito do Capitalismo</h2>
+                <h3>PARTE 1:<br> <!-- Quebra de linha --> O PROBLEMA</br></h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, ut tenetur doloribus quia quae, ex rem voluptatibus optio accusantium, dicta temporibus obcaecati praesentium nobis similique ea tempore autem laboriosam iusto.</p> <!-- Parágrafo de lerolero -->
+    
+        <h1>Formatação de textos</h1>
+            <ul>
+                <li>Tag <b>Não semântica</b></li> <!-- Ou seja, não tem sentido, apenas FORMA (CSS)-->
+                <li>Tag <STROng>semântica</STROng> e <STROng>com forma!</STROng></li>
+                <li>Para o <i>itálico</i>, usamos a tag "i" <STROng>(não semântica)</STROng></li>
+                <li>A corra é a tag <em>"EM"</em> <STROng>(semântica)</STROng></li>
+            </ul>
+    
+            <h1>Demais formatações em HTML5</h1>
+            <h2>Marcações</h2>
+            <ul>
+                <li>Pode-se usar a tag 
+                    <mark style="background-color: cadetblue;">mark</mark> <!-- Parâmetro de CSS -->
+                    para simular um marca texto.
+                </li>
+                <li>Caso deseje aplicar esse "style" em demais tags "mark", você precisa criar uma tag "style" no cabeçário, criar um <em>seletor</em> para tag e passar o respectivo parâmetro, que nesse caso é <STROng>"background-color"</STROng>.</li>
+                <li><ins>Texto inserido/sublinhado com a tag correta</ins></li>
+                <li><del>Texto deletado/a ser desconsiderado</del></li>
+                <li>Sobrescrito (como 2<sup>1</sup>) & subscrito(H<sub>2</sub>O)</li>
+                <li>Código-fonte pré-formatado com "code" e "pre", como: 
+                    <pre> <!-- Deixa "alinhado à esquerda" (por aí) sem tem que ficar dando Shift+<- -->
+                        <code> <!-- Bloco de Código -->
+                # Resumir o dataset
+                
+                library(tidyverse)
+                
+                dados %>% 
+                    glimpse()
+                        </code>
+                    </pre>
+                </li>
+                <li>Citação simples: <q>mame-me</q></li> <!-- quote -->
+                <li>Citação complexa utiliza a tag "blockquote"</li>
+                <li>Observe, segundo Engels (2019):</li>
+                <blockquote cite="https://www.youtube.com/watch?v=eJzYJzhoD5I">Morgan, que passou grande parte de sua vida entre os iroqueses que ainda hoje habitam o Estado de Nova York e foi adotado por uma de suas tribos (a dos senecas), encontrou entre eles um sistema de parentesco que estava em contradição com suas relações familiares reais.</blockquote> <!-- Citação do Engels -->
+                <li>Você também consegue criar abreviações no <abbr title="Hyper Text Marked Language">HTML</abbr>, como <abbr title="mame-me">MMM.</abbr></li>
+            </ul>
+            <h2>Tamanho do texto</h2>
+            <ul>
+                <li><big>Texto grande</big> com a tag "big", que está obsoleta!</li>
+                <li><small>Texto pequeno</small> com a tag "small" - que, pelo menos por enquanto, não está obsoleta.</li>
+            </ul>
+            <h2>Juntando listas</h2>
+            <ol>
+                <li>coisas de Deus</li>
+                    <ul type = "square">
+                        <li>agua</li>
+                        <li>bolo sem recheio de abacaxi/côco</li>
+                        <li>pecado</li>
+                    </ul>
+                <li>coisas que ñ são de God</li>
+                    <ul type = "square">
+                        <li><abbr title="filho primogênito de satanás">hegel</abbr></li> <!-- hablei -->
+                        <li>heiddeger</li>
+                        <li>carne de feijão</li>
+                    </ul>
+    
+            </ol>
+            <h2>Lista de definições</h2>
+            <dl>
+                <dt>Termo</dt>
+                <dd>Descrição</dd>
+                <dt>hegel</dt>
+                <dd>filho primogênito de satanás</dd>
+            </dl>
+            <!-- Links-->
+            <h2>Links e Âncoras</h2>
+                <p><a href="https://www.youtube.com/watch?v=eJzYJzhoD5I" target="_blank">meu repo no github</a></p>
+                <p>não agr sem sacanagem, a página do github <a href="https://github.com/tutzlima" target="_blank">aqui</a></p>
+            <h2>Links Internos</h2>
+                <p>Acesso a minha <a href="segunda_pagina.html" target="_blank" rel="next">segunda página</a></p>
+                <p>você também consegue fazer essa bucetinha com <em>pastas</em>, basta indicar "caminho/arquivo.extensão"</p>
+                <p><a href="https://github.com/tutzlima" target="_self">ó o github again</a></p>
+    
+    </body>
+    </html>
