@@ -1,0 +1,16 @@
+@charset "UTF-8"; /* Isso é uma regra em CSS 
+
+sugestão: Adobe Color & Palleton
+cores primárias -> amarelo, vermelho & azul
+cores secundárias -> violeta, verde * laranja
+cores terciária -> mistura das outras duas, são os "tons pastéis"
+cores frias -> à esquerda do amarelo | cores quentes -> à direita do amarelo
+cores complementares -> maior CONTRASTE, por exemplo, marrom-verde*?
+cores análogas -> vizinhas, tem harmonia
+cores relacionadas -> duas vizinhas, e uma no lado (pula uma cor)
+cores intercaladas -> pula uma, duas...
+
+três a cinco cores, importante atentar-se com a cor da logo ou da logo com o restante...
+roxo, azul e verde parece interessante! Intercalada talvez?*/
+
+*{} /* Configuração Global das CSS*/

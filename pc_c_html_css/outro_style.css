@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*
+Medidas absolutas
+cm, mm, in, pt...
+
+&
+
+Relativas
+em (tamanho atual), ex (tamanho x), rem (root, fonte no body), vw (view width, em relação da view port, porcentagem da view port), vh (altura da view port)
+
+Em font-size -> em & px
+
+font-weight -> lighter, normal, bold e bolder (absolutos eu acho)
+font-weight -> 100-900 (numérica, de cem em cem)
+
+shorthand font -> style, weight, size, family 
+
+*/
+body {
+  background-color: rgb(158, 158, 189);
+  text-align: justify;
+  text-indent: 20px;
+  font: normal normal 1em "Arial", "Helvetica";
+}
+
+h1 {
+  text-align: center;
+}
