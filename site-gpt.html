@@ -1,109 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Site Pessoal</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        header {
-            background-color: #4B0082;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #6A5ACD;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        section {
-            padding: 20px;
-        }
-        footer {
-            background-color: #4B0082;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        .contact-form {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .contact-form input, .contact-form textarea, .contact-form button {
-            width: 100%;
-            margin: 10px 0;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-    <h1>Bem-vindo ao Meu Site Pessoal</h1>
-</header>
+    <header>
+        <h1>tutzpage</h1>
+    </header>
 
-<nav>
-    <a href="#home">Home</a>
-    <a href="#projetos">Projetos</a>
-    <a href="#sobre-mim">Sobre Mim</a>
-</nav>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#sobre-mim">Sobre Mim</a>
+    </nav>
 
-<section id="home">
-    <h2>Home</h2>
-    <p>Bem-vindo ao meu site pessoal. Aqui você encontrará informações sobre meus projetos e um pouco sobre mim.</p>
-</section>
+    <section id="home">
+        <h2>Apresentação</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, culpa! Saepe officiis culpa molestiae
+            explicabo ipsum assumenda ratione placeat voluptas? Sapiente nemo maxime quia ad nesciunt, excepturi
+            expedita vero repellat.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit quo molestias, vel fugit molestiae nam, dolorem
+            enim, magni perferendis dolores accusantium. Iusto assumenda facere eveniet. Repudiandae ex quas corporis
+            molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tempore fugiat reprehenderit
+            molestiae animi. Quisquam voluptates totam delectus assumenda et adipisci animi voluptate, vitae enim ea
+            veritatis quae, iste dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere soluta fuga
+            dolorem explicabo voluptas quo repellendus quasi recusandae reprehenderit, quaerat neque perferendis itaque
+            labore amet minus consequuntur excepturi vitae tenetur! Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit. Excepturi consequuntur debitis doloremque pariatur ducimus. Error harum nihil voluptates tenetur
+            quaerat natus. Quaerat ex totam tempora error! Porro, eum voluptatum? Deserunt.</p>
+    </section>
 
-<section id="projetos">
-    <h2>Projetos</h2>
-    <h3>Introdução ao R e Rstudio</h3>
-    <p>Descrição breve do projeto.</p>
-    <h3>Python + Elden Ring: Contador de mortes</h3>
-    <p>Descrição breve do projeto.</p>
-    <h3>Ciências Sociais</h3>
-    <h4>Artigos</h4>
-    <p>Lista de artigos.</p>
-    <h4>Traduções/digitalizações</h4>
-    <p>Lista de traduções e digitalizações.</p>
-</section>
+    <section>
+        <h2 id="projetos">Projetos</h2>
+        <img src="midias/tidyverse-default.webp" alt="Pacote Tidyverse ao fundo" style="">
+        <h3>Introdução ao R e Rstudio</h3>
+        <p>Material produzido integralmente em markdown guiando o usuário ao uso do R e Rstudio, partindo da simples
+            instalação da linguagem e do ambiente de desenvolvimento integrado (Rstudio) à visualização de gráficos.</p>
+        <img src="midias/rstudio_layout.png" alt="Layout principal da IDE Rstudio" width="650px"
+            style="position: relative;">
+        <h3>
+            <img src="midias/python_logo.png" alt="Logo da linguagem Python" style="width: 150px;">
+            <img src="midias/eldenring_recortado.png" alt="Título do jogo 'Elden Ring'" style="width: 150px;" ;>
+        </h3>
+        <p>Script desenvolvido em Python para contagem automática de mortes em Elden Ring</p>
+        <h3>Ciências Sociais</h3>
+        <p>Recomendações de artigos e vídeos.</p>
+        <h4>Artigos</h4>
+        <p>Lista de artigos.</p>
+        <h4>Traduções/digitalizações</h4>
+        <p>Lista de traduções e digitalizações.</p>
+    </section>
 
-<section id="sobre-mim">
-    <h2>Sobre Mim</h2>
-    <p>Descrição sobre você.</p>
-    <h3>Contato</h3>
-    <div class="contact-form">
-        <form action="mailto:seuemail@example.com" method="post" enctype="multipart/form-data">
-            <input type="email" name="email" placeholder="Seu e-mail" required>
-            <textarea name="message" placeholder="Sua mensagem" rows="5" required></textarea>
-            <input type="file" name="attachment">
-            <button type="submit">Enviar</button>
-        </form>
-    </div>
-</section>
+    <section>
+        <h2 class="sobre-mim">Sobre Mim</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi ab, tempore repellat dolores veniam
+            voluptate. Id tempora esse voluptatem, exercitationem quisquam perspiciatis facere iste nam nostrum magni,
+            sunt explicabo?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, adipisci dolorem. Rerum quae
+            reiciendis facilis nam unde alias inventore, quaerat magnam, saepe sunt expedita incidunt facere totam
+            libero laborum at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad similique reprehenderit quod
+            facere quisquam at iusto, sint excepturi recusandae officia dolorum magni porro veniam sunt laboriosam, quia
+            nam? Temporibus, accusantium! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus totam quidem
+            accusantium vitae ratione dolor quis itaque exercitationem! Minima, voluptatibus laboriosam! Earum eligendi
+            dolorum veniam quae libero dignissimos excepturi aliquam? Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Officiis ex id sit eligendi eum facilis suscipit omnis et qui, delectus ea deserunt
+            placeat voluptatibus dolor, molestias expedita aperiam sequi harum! Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Exercitationem laborum rem corporis praesentium tempora corrupti, iusto commodi
+            voluptates, porro deserunt nihil, incidunt necessitatibus animi ad autem sapiente unde consequatur aperiam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aut ipsa aperiam corrupti aspernatur explicabo
+            blanditiis ipsum iure fugit magnam dignissimos illum debitis, eligendi optio modi in, nostrum dicta sit?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nemo sapiente ducimus ad odit accusamus error
+            voluptatum reprehenderit voluptate vitae quos nostrum a fugiat earum consectetur, labore praesentium non
+            veritatis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quae, corporis vitae tempora totam
+            fugit omnis animi facilis unde eaque exercitationem commodi doloremque neque. Nisi deleniti quis quo illum!
+            Rem!</p>
+        <h3 class="contato">Contato</h3>
+        <p>Sinta-se a vontade para me contatar pelo <a href="github_link" target="_blank">GitHub</a> ou diretamente pelo
+            site!</p>
+        <div class="contact-form">
+            <form action="mailto:seuemail@example.com" method="post" enctype="multipart/form-data">
+                <input type="email" name="email" placeholder="Seu e-mail" required>
+                <textarea name="message" placeholder="Sua mensagem" rows="5" required></textarea>
+                <input type="file" name="attachment">
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
 
-<footer>
-    <p>&copy; 2024 Meu Site Pessoal</p>
-</footer>
+    <footer>
+        <p>&copy; 2024 tutzpage</p>
+    </footer>
 
 </body>
+
 </html>
