@@ -1,91 +1,119 @@
+<!-- Os fundos que vão ficar "preto" mantém o ID pra fazer a coisa do menu mas add uma mesma classe neles! -->
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-    <title>tutzlima</title>
+    <link rel="shortcut icon" href="midias/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Arthur Lima</title>
 </head>
+
 <body>
-    <h1>Habilitar/Desabilitar Áudio</h1> <!-- Muito provável que isso vire um botão lá na frente -->
-        <audio preload="auto" controls loop>
-            <p>Escolha uma musiquinha</p>
-            <source src="midias/White-Hats-Wayne-Jones.mp3" type="audio/mpeg">
-            <source src="midias/Your-Suggestions-Unicorn-Heads.mp3" type="audio/mpeg">
-        </audio> <!-- mp3, wav, OGG -->
-    <h1>Apresentação</h1>
-        <h2><a href="files/README.md">Markdown de Apresentação do GitHub</a></h2>
-        <h2>Repositórios públicos</h2>
-            <h3><a href="files/Script-Estudo-Geral.R">Introdução ao R e Rstudio</a></h3>
-            <h3><a href="files/Traduções">Ciências Sociais</a></h3>
-                <h4>Sugestões de leitura</h4>
-                    <ul>
-    <h5>Clássicos</h5>
+
+    <header>
+        <div class="inicio">
+            <h1>Ciência Social Computacional</h1>
+        </div>
+    </header>
+
+    <nav>
+        <div>
+            <a href="#sec_projetos">Projetos</a>
+            <a href="#sec_ciso">Ciências Sociais</a>
+            <a href="#sec_sobremim">Sobre mim</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    </nav>
+
+    <section>
+        <a href="noticias.html" target="_blank">
+            <h2>Últimas notícias de Ciências Sociais</h2>
+        </a>
+        <div class="carousel-container">
+            <button class="nav-button prev" onclick="prevSlide()">&#9664;</button>
+            <div class="carousel" id="carousel">
+            </div>
+            <button class="nav-button next" onclick="nextSlide()">&#9654;</button>
+        </div>
+        <div>
+    </section>
+
+    <section>
+        <div>
+            <h2>Apresentação</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto commodi explicabo sunt ipsam
+                voluptatem quas. Ut sunt earum exercitationem nihil ducimus labore, quo libero inventore nobis at iure,
+                rem distinctio! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum quaerat aspernatur,
+                officiis officia dignissimos veniam nam. Voluptate, ratione esse doloribus sint eius iste voluptatem ab
+                libero, quaerat veniam eligendi distinctio! Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Incidunt ipsam vel dignissimos voluptate reiciendis eaque aliquid nostrum, error, eos, illo suscipit!
+            </p>
+        </div>
+    </section>
+
+    <section id="sec_projetos">
+        <div>
+            <h2>Projetos</h2>
+            <div>
+                <h3>Introdução ao R e Rstudio</h3>
+                <p>Breve descrição do que é</p>
+                <p>
+                    <a href="midias/r_rstudio.md">Baixe o arquivo</a>
+                    <a href="">ou veja-o no Github</a>
+                </p>
+            </div>
+            <div>
+                <h3>Python + Elden Ring</h3>
+                <img src="midias/python_logo.png" alt="logo python" width="200px">
+                <img src="midias/eldenring_recortado.png" alt="elden ring text" width="200px">
+            </div>
+            <a href="#inicio">Back to top</a>
+        </div>
+    </section>
+
+    <section class="sec_ciso">
+        <h2>Ciências Sociais</h2>
+        <p>Recomendações de artigos e vídeos.</p>
+        <h3>Artigos</h3>
         <ul>
-            <li>Sociologia</li>
-                <ul>
-                    <li>Economia e Sociedade</li>
-                    <li>Divisão do trabalho social</li>
-                    <li>O Capital</li>
-                </ul>
-            <li>Antropologia</li>
-                <ul>
-                    <li>Sociedade Antiga</li>
-                    <li>Magia e Bruxaria entre os Azande</li>
-                    <li>Configurações de Cultura na América do Norte</li>
-                </ul>
-            <li>Ciência Política</li>
-                <ul>
-                    <li>Teoria das Formas de Governo</li>
-                    <li>O Leviatã</li>
-                    <li>Discurso sobre a primeira década de Tito Lívio</li>
-                </ul>
-        <p><a href="link_zotero">Link da Biblioteca do <strong>Zotero</strong></a></p>
+            <li>Artigo 1</li>
+            <li>Artigo 2</li>
+            <li>Artigo 3</li>
         </ul>
-            <h5>Artigos introdutórios</h5>
-                <ul>
-                    <li><a href="DOI">Artigo</a></li>
-                    <li><a href="DOI">Artigo</a></li>
-                    <li><a href="DOI">Artigo</a></li>
-                </ul>
-            <h5>Vídeos</h5>
-                <ul>
-            <li><a href="link_youtube">Durkheim por Raquel Weiss</a></li><br>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/BeK3FDE_Iy0?si=vQd1cizOSQOkEBJy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <li><a href="link_youtube">Weber por Pieirucci</a></li></br>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/wDEVx65oa3s?si=p3ns9F-hOdDsXW-i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <li><a href="https://www.youtube.com/embed/eJzYJzhoD5I?si=J91fy0RUcz9mmjaT">video deletar</a></li><br>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/eJzYJzhoD5I?si=J91fy0RUcz9mmjaT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p><a href="pagina_deletar.html">Clique aqui para ver apenas o vídeo</a></p>
-                </ul>
-            <h5>Traduções/OCR'S</h4>
-                    <p>
-                        <a href="traducoes/(REVISAR) MaxWeber_Economia_e_Sociedade.txt" download="economia_e_sociedade_max_weber.txt" type="application/txt">Economia e Sociedade, cap 1</a>
-                    </p>
-                    <p>
-                        <a href="traducoes/(REVISAR) Oliveira Vianna um Statemaker na Alameda Sao Boa Ventura .txt" download="oliveira_vianna_um_statemaker_na_alameda_sao_boa_ventura.txt" type="application/txt">Oliveira Vianna um Statemaker...</a>
-                    </p>
+        <h3>Vídeos</h3>
+        <ul>
+            <li><a href="https://www.youtube.com/results?search_query=cabelinho+reggae">Estatistica</a></li><br>
+            <li><a href="https://www.youtube.com/results?search_query=cabelinho+reggae">Rstudio POSIT</a></li><br>
+            <li><a href="https://www.youtube.com/results?search_query=cabelinho+reggae">Tidyverse Documentation</a></li>
         </ul>
-        <!-- Pense melhor na organização das pastas depois!
-             Faça um "board", storyboard seila n lembro o nome,
-             pense em alguma forma de organizar isso de forma decente
-             visualmente! -->
-    <h1>Mais sobre mim</h1>
-        <img src="imagens/perfil.jpg" alt="Foto minha tirada pelo espelho do banheiro da FFCH">
-        <p>Sou estudante de graduação de Ciências Sociais na <strong><a href="https://www.ufba.br/">Universidade Federal da Bahia</a></strong> e ingressei na metade do ano passado. Atualmente, faço parte da equipe do grupo de pesquisa do <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.labhd.ufba.br/&ved=2ahUKEwiA0ZXzpb-GAxXoppUCHb9jC-sQFnoECBIQAQ&usg=AOvVaw2nQk5YH_WgD74kk0T291Gc">Laboratório de Humanidades Digitais</a> associado ao <strong>Programa de Pós-Graduação em Ciências Sociais</strong> (PPGCS).</p>
-        <p>Graças minhas experiências no laboratório, adquiri muito interesse pelo ramo das Humanidades Digitais e pretendo, em algum momento da minha vida, especializar-me também em Ciências de Dados.</p>
-        <p>Antes disso, estava cursando mecatrônica no <abbr title="Serviço Nacional de Aprendizagem & Centro Integrado de Manufatura e Tecnologia">SENAI CIMATEC,</abbr></a> onde aprendi conceitos de eletrônica, manufatura e programação. Pode-se perceber que desde essa época tenho uma queda por programação.</p>
-        <p>Curioso pois, antes ainda do SENAI, eu já estudava C++ por conta própria pela vontade de programar com arduino (algo que acabei fazendo numa disciplina no <abbr title="Serviço Social da Industria">SESI</abbr>).</p>
-        <p>Por fim, optei por abandonar a mecatrônica para focar no que sempre me encantou mais do que tudo na realidade, que é a própria realidade, a vida social, o existir, o <em>"não-existir"...</em></p> <p>Enfim, pretendo permanecer nas Ciências Sociais e investigar as temáticas que sempre me chamaram atenção, como violência, conhecimento, religião e existência.</p>
-        <p>Mas, a partir de agora, como um Cientista e não um simples entusiasta das Humanidades.</p>
-    <h2>Contatos</h2>
-        <ul> <!-- Essas imagens, ou você tem que modificar no Gimp (que é a preferência...)
-                  ou trate  de reduzí-las com o CSS depois -->
-                  <!-- Além disso, é muito interessante que você construa versões de diferentes
-                       tamanhos e use a tag <picture> no lugar de img simplesmente, assim
-                        as imagens vão se ajustar automaticamente à proporção da tela do navegador! -->
-            <li><img src="imagens/gmail.ico" alt=""><a href="mailto/arthurlimareserva@gmail.com">Gmail</a></li>
-            <li><img src="imagens/github.ico" alt=""><a href="https://github.com/tutzlima">GitHub</a></li>
-            <li><img src="imagens/lattes.png" alt="logo lattes"><a href="http://lattes.cnpq.br/2709096118053654">Lattes</a></li>
+        <h3>Traduções/digitalizações</h3>
+        <ul>
+            <li><a href="eticaprotestante.txt">A Ética Protestante e o Espírito do Capitalismo - Capítulo 1.</a></li>
+            <li><a href="oliveiravianna.txt">Oliveira Vianna um Statemaker na Alameda São Boa Ventura.</a></li>
         </ul>
+    </section>
+
+    <section id="sec_sobremim">
+        <h2>Sobre mim</h2>
+        <img src="midias/perfil.jpg" alt="Foto minha tirada pelo espelho do banheiro da FFCH">
+        <img src="imagens/lattes.png" alt="logo lattes"><a href="http://lattes.cnpq.br/2709096118053654">Lattes</a>
+        <p>Sou estudante de Ciências Sociais na <strong><a href="https://www.ufba.br/">Universidade Federal da Bahia</a></strong> e ingressei na metade do ano passado. Atualmente, faço parte do grupo de pesquisa do <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.labhd.ufba.br/&ved=2ahUKEwiA0ZXzpb-GAxXoppUCHb9jC-sQFnoECBIQAQ&usg=AOvVaw2nQk5YH_WgD74kk0T291Gc">Laboratório de Humanidades Digitais</a> associado ao <strong>Programa de Pós-Graduação em Ciências Sociais</strong> (PPGCS).</p>
+        <p>Graças minhas experiências no laboratório, adquiri muito interesse pelo ramo das Humanidades Digitais e pretendo, em algum momento da minha vida, especializar-me também em Ciências de Dados. Por enquanto, sigo como um entusiasta à Sociologia e Antropologia Digital - ou <em>do digital.</em></p>
+        <p>Antes disso, cursava mecatrônica no <abbr title="Serviço Nacional de Aprendizagem & Centro Integrado de Manufatura e Tecnologia">SENAI CIMATEC,</abbr></a> onde aprendi conceitos de eletrônica, manufatura e programação. Pode-se perceber que desde essa época tenho uma queda por programação. Curioso, pois antes ainda do SENAI eu já estudava C++ por conta própria pela vontade de programar com arduino (algo que acabei fazendo numa disciplina no <abbr title="Serviço Social da Industria">SESI</abbr>).</p>
+        <p>Por fim, optei por abandonar a mecatrônica para focar no que sempre me encantou mais do que tudo na realidade, que é a própria realidade, a vida social, a existência humana... enfim.</p>
+        <p>Pretendo permanecer nas Ciências Sociais e investigar as temáticas que sempre me chamaram atenção, como violência, conhecimento e religião. Mas, a partir de agora, como um cientista e não um simples entusiasta das Humanidades.</p>
+
+        <a href="#pagina_inicial">Back to top</a>
+    </section>
+
+    <footer>
+        <p>Sinta-se a vontade para me contatar!</p>
+        <a href="https://github.com/tutzlima" target="_blank">GitHub</a> <!-- Adicionar imagem -->
+        <p><a href="contato.html" target="_blank">Email</a></p>
+        <p>&copy; 2024 Arthur Lima</p>
+    </footer>
+</body>
+
 </html>
