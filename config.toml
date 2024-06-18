@@ -1,0 +1,151 @@
+baseurl      = "https://ericbrasil.com.br/"
+theme        = "hello-friend-ng"
+languageCode = "en-us"
+paginate     = 10
+enableEmoji  = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  author = { name = "Eric Brasil" }
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+  enableGlobalLanguageMenu = true
+  enableLanguagesMenu = true
+  disableReadOtherPosts = false
+  enableSharingButtons = true
+  description = "Eric Brasil's website"
+  keywords = "homepage, cv, blog, portfolio"
+  images = ["static/img/favicon.ico"]
+  enableThemeToggle = true
+
+  [params.footer]
+    author = false
+    trademark = false
+    copyright = false
+    topText = ["© 2024 Eric Brasil"]
+    bottomText = [
+      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+      "Theme by <a href=\"https://github.com/rhazdon\">rhazdon</a>","<a href='https://creativecommons.org/licenses/by-nc/4.0/'>CC BY-NC 4.0</a>"
+    ]
+
+  [params.portrait]
+    path     = "/img/eric-bg.png"
+    alt      = "Portrait"
+    maxWidth = "180px"
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/ericbrasiln"
+[[params.social]]
+  name = "mastodon"
+  url = "https://hcommons.social/@ericbrasiln"
+[[params.social]]
+  name = "twitter"
+  url = "https://twitter.com/ericbrasiln"
+[[params.social]]
+  name = "email"
+  url = "contact/"
+[[params.social]]
+  name = "telegram"
+  url = "https://t.me/ericbrasiln"
+[[params.social]]
+  name = "youtube"
+  url = "https://www.youtube.com/channel/UC-tuyLIm7Ww_TDjKdHdnaAg"
+[[params.social]]
+  name = "orcid"
+  url = "https://orcid.org/0000-0001-5067-8475"
+
+[taxonomies]
+  category = "blog"
+  tag      = "tags"
+  series   = "series"
+
+defaultContentLanguage = 'en'
+
+[languages]
+  [languages.en]
+    languageName = 'English'
+    title = "Eric Brasil"
+    [languages.en.params]
+      homeSubtitle = "historian and professor (IHLM/UNILAB)"
+      keywords = "homepage, cv, blog, portfolio"
+      readOtherPosts = "More"
+      [languages.en.params.logo]
+        logoText = "home"
+        logoHomeLink = "/"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "CV"
+        url = "cv/"
+        weight = 1
+      [[languages.en.menu.main]]
+        name = "Projects"
+        url = "projects/"
+        weight = 3
+      [[languages.en.menu.main]]
+        name = "Publications"
+        url = "publications/"
+        weight = 2
+      [[languages.en.menu.main]]
+        name = "Talks"
+        url = "talks/"
+        weight = 4
+      [[languages.en.menu.main]]
+        name = "Teaching"
+        url = "teaching"
+        weight = 5
+      [[languages.en.menu.main]]
+        name = "Contact"
+        url = "contact/"
+        weight = 7
+
+  [languages.pt-br]
+    languageName = 'Portuguese'
+    title = "Eric Brasil"
+    [languages.pt-br.params]
+      homeSubtitle = "historiador e professor (IHLM/UNILAB)"
+      keywords = "homepage, cv, blog, portfolio"
+      readOtherPosts = "Leia mais"
+      [languages.pt-br.params.logo]
+        logoText = "home"
+        logoHomeLink = "/"
+    [languages.pt-br.menu]
+      [[languages.pt-br.menu.main]]
+        name = "CV"
+        url = "cv/"
+        weight = 1
+      [[languages.pt-br.menu.main]]
+        identifier = "Projetos"
+        name = "Projetos"
+        url = "projects/"
+        weight = 3
+      [[languages.pt-br.menu.main]]
+        identifier = "Publicações"
+        name = "Publicações"
+        url = "publications/"
+        weight = 2
+      [[languages.pt-br.menu.main]]
+        identifier = "Falas"
+        name = "Falas"
+        url = "talks/"
+        weight = 4
+      [[languages.pt-br.menu.main]]
+        identifier = "Ensino"
+        name = "Ensino"
+        url = "teaching"
+        weight = 5
+      [[languages.pt-br.menu.main]]
+        identifier = "Contatos"
+        name = "Contatos"
+        url = "contact/"
+        weight = 7
+
+[services]
+  [services.googleAnalytics]
+    id = "G-CHMNDX2GXH"  # Substitua pelo seu ID do Google Analytics
