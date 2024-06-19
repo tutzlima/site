@@ -2,21 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/pt-br/publications/articles/</loc>
-    <lastmod>2024-03-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/publications/articles/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt-br/publications/articles/"
-                />
-  </url><url>
     <loc>http://localhost:1313/pt-br/cv/</loc>
-    <lastmod>2024-03-15T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -29,7 +16,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/pt-br/</loc>
-    <lastmod>2024-03-15T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -41,8 +28,60 @@
                 href="http://localhost:1313/pt-br/"
                 />
   </url><url>
+    <loc>http://localhost:1313/pt-br/materials/</loc>
+    <lastmod>2024-06-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/materials/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://localhost:1313/pt-br/materials/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/pt-br/publications/articles/</loc>
+    <lastmod>2024-06-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/publications/articles/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://localhost:1313/pt-br/publications/articles/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/pt-br/projects/</loc>
+    <lastmod>2024-06-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://localhost:1313/pt-br/projects/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/pt-br/projects/completed/</loc>
+    <lastmod>2024-06-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/projects/completed/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://localhost:1313/pt-br/projects/completed/"
+                />
+  </url><url>
     <loc>http://localhost:1313/pt-br/publications/</loc>
-    <lastmod>2024-03-15T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -54,56 +93,17 @@
                 href="http://localhost:1313/pt-br/publications/"
                 />
   </url><url>
-    <loc>http://localhost:1313/pt-br/teaching/tools/</loc>
-    <lastmod>2022-09-30T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/pt-br/materials/materials/</loc>
+    <lastmod>2024-06-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/teaching/tools/"
+                href="http://localhost:1313/materials/materials/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="http://localhost:1313/pt-br/teaching/tools/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/pt-br/teaching/</loc>
-    <lastmod>2022-09-30T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/teaching/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt-br/teaching/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/pt-br/teaching/materials/</loc>
-    <lastmod>2022-05-23T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/teaching/materials/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt-br/teaching/materials/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/pt-br/teaching/courses/</loc>
-    <lastmod>2022-05-23T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/teaching/courses/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt-br/teaching/courses/"
+                href="http://localhost:1313/pt-br/materials/materials/"
                 />
   </url><url>
     <loc>http://localhost:1313/pt-br/contact/</loc>
@@ -117,84 +117,6 @@
                 rel="alternate"
                 hreflang="pt-br"
                 href="http://localhost:1313/pt-br/contact/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/pt-br/publications/books/</loc>
-    <lastmod>2022-05-23T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/publications/books/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt-br/publications/books/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/pt-br/talks/lectures/</loc>
-    <lastmod>2022-05-23T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/talks/lectures/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt-br/talks/lectures/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/pt-br/talks/</loc>
-    <lastmod>2022-05-23T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/talks/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt-br/talks/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/pt-br/talks/video-lessons/</loc>
-    <lastmod>2022-02-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/talks/video-lessons/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt-br/talks/video-lessons/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/pt-br/projects/</loc>
-    <lastmod>2022-02-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/projects/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt-br/projects/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/pt-br/projects/completed/</loc>
-    <lastmod>2022-02-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/projects/completed/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt-br/projects/completed/"
                 />
   </url><url>
     <loc>http://localhost:1313/pt-br/projects/in-progress/</loc>

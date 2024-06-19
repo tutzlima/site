@@ -6,21 +6,21 @@
     <description>Recent content in Projects on Eric Brasil</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
-    <lastBuildDate>Thu, 24 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/pt-br/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Projetos de pesquisa concluídos</title>
       <link>http://localhost:1313/pt-br/projects/completed/</link>
-      <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/pt-br/projects/completed/</guid>
-      <description>Métodos, ferramentas e repositórios digitais em português: um framework para a pesquisa em periódicos digitalizados Summary: O objetivo do projeto é analisar a operação historiográfica relacionada ao processo de selecionar, recolher e organizar fontes primárias por meio de ferramentas e dados digitais. Terá como foco repositórios e interfaces gráficas que permitem o acesso a periódicos da imprensa de língua portuguesa digitalizados, com destaque para a Hemeroteca Digital Brasileira e a coleção de periódicos da Biblioteca Nacional Digital de Portugal.</description>
+      <description></description>
     </item>
     <item>
       <title>Projetos de pesquisa em andamento</title>
       <link>http://localhost:1313/pt-br/projects/in-progress/</link>
       <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/pt-br/projects/in-progress/</guid>
-      <description>Ecossistema de desinformação e propaganda computacional no aplicativo Telegram Descrição: Este projeto propõe estabelecer uma estrutura de mapeamento e análise multi-método de redes de extrema -direita no Telegram, onde recentemente observou-se um aumento no fluxo de usuários e na criação de grupos e canais. Visando monitorar possíveis atividades de propaganda computacional e operações coordenadas de influência ao longo dos próximos dois anos, o projeto combina análises computacionais baseadas na abordagem da linguística de corpus (LC) e técnicas de processamento de linguagem natural (NLP) com uma abordagem qualitativa mista de análise de discurso e etnografia online.</description>
+      <description>ElasticSearch e Linguagem R para análise de violência política no Telegram Descrição: Como bolsista de Iniciação Científica no Laboratório de Humanidades Digitais (UFBA) atuo no desenvolvimento de scripts em R para manipulação de dados e análise quantitativa e qualitativa do Ecossistema Multiplataforma de Desinformação pelo ElasticSearch.&#xA;Situação: Em andamento; Natureza: Iniciação Científica.&#xA;Integrantes: Ruan Arthur Lima Santos - Bolsista / Leonardo Fernandes Nascimento - Coordenador&#xA;Financiamento: UFBA_IC.&#xA;Paternidade em homens de diferentes gerações Descrição: Pesquisa com objetivo de investigar as percepções entre homens de diferentes gerações em relação à paternidade.</description>
     </item>
   </channel>
 </rss>

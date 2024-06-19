@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Materials on Eric Brasil</title>
+    <link>http://localhost:1313/pt-br/materials/</link>
+    <description>Recent content in Materials on Eric Brasil</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Wed, 19 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/pt-br/materials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scripts, Tutoriais, Traduções &amp; Digitalizações</title>
+      <link>http://localhost:1313/pt-br/materials/materials/</link>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pt-br/materials/materials/</guid>
+      <description>Meus scripts Youtube Whisper&#xA;Discursos pela Legislatura&#xA;Contador de Mortes para Elden Ring&#xA;Tutoriais Introdução ao R e Rstudio Traduções &amp;amp; Digitalizações Max Weber: A Ética Protestante e o Espírito do Capitalismo&#xA;Oliveira Vianna: Um Statemaker na Alameda São Boa Ventura</description>
+    </item>
+  </channel>
+</rss>
