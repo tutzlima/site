@@ -3,18 +3,21 @@ title: Projetos de pesquisa em andamento
 date: "2022-02-24"
 
 ---
-## Ecossistema de desinformação e propaganda computacional no aplicativo Telegram
 
-**Descrição**: Este projeto propõe estabelecer uma estrutura de mapeamento e análise multi-método de redes de extrema -direita no Telegram, onde recentemente observou-se um aumento no fluxo de usuários e na criação de grupos e canais. Visando monitorar possíveis atividades de propaganda computacional e operações coordenadas de influência ao longo dos próximos dois anos, o projeto combina análises computacionais baseadas na abordagem da linguística de corpus (LC) e técnicas de processamento de linguagem natural (NLP) com uma abordagem qualitativa mista de análise de discurso e etnografia online. Além de buscar a existência de instrumentos de automação para potencializar a distribuição de conteúdo no Telegram, o presente projeto inclui uma etapa complementar de análise qualitativa dos padrões semiótico-discursivos dos conteúdos circulados.
+## ElasticSearch e Linguagem R para análise de violência política no Telegram
 
-Situação: Em andamento; Natureza: Pesquisa.
-Integrantes: Leonardo Fernandes Nascimento - Coordenador / Eric Brasil Nepomuceno - Integrante / Paulo F. C. Fonseca - Integrante / Leticia Maria Costa da Nóbrega Cesarino - Integrante / Vítor Mussa Tavares Gomes - Integrante / Rosana Moore - Integrante.
+**Descrição**: Como bolsista de Iniciação Científica no [Laboratório de Humanidades Digitais](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.labhd.ufba.br/&ved=2ahUKEwiYtIS7vuiGAxWwlJUCHV1eC8kQFnoECAcQAQ&usg=AOvVaw2nQk5YH_WgD74kk0T291Gc) (UFBA) atuo no desenvolvimento de scripts em R para manipulação de dados e análise quantitativa e qualitativa do [Ecossistema Multiplataforma de Desinformação](https://revista.internetlab.org.br/publicos-refratados-grupos-de-extrema-direita-brasileiros-na-plataforma-telegram/) pelo ElasticSearch.
 
-Financiamento: CNPq.
+Situação: Em andamento; Natureza: Iniciação Científica.
 
-## Webscraping e Humanidades Digitais: Sociologia, História e Ciência Política
+Integrantes: Ruan Arthur Lima Santos - Bolsista / [Leonardo Fernandes Nascimento](http://lattes.cnpq.br/7141811368487014) - Coordenador
 
-**Descrição**: O objetivo do projeto é criar ferramentas de coleta e análise de dados de redes sociais digitais, websites e repositórios de dados públicos através da articulação de: a) Linguagens de programação: R, Python, Java e PHP para webscraping e/ou data mining; b) Ferramentas de CAQDAS (computer assisted qualitative data analysis software) tais como ATLAS.ti e; c) Ferramentas de visualização de dados: Gephi, NodeXL, Netvizz.
+Financiamento: UFBA_IC.
 
-Situação: Em andamento; Natureza: Desenvolvimento tecnológico.
-Instituição de execução: UFBA
+## Paternidade em homens de diferentes gerações
+
+**Descrição**: Pesquisa com objetivo de investigar as percepções entre homens de diferentes gerações em relação à paternidade.
+
+Situação: Em andamento; Natureza: Autônoma.
+
+Integrantes: [Brenda Pimentel Damasceno Ferreira](http://lattes.cnpq.br/3253078924254008) / Ruan Arthur Lima Santos

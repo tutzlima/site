@@ -1,21 +1,23 @@
 ---
 title: Research projects in progress
-date: "2022-02-24"
+date: "2024-06-19"
 
 ---
 
-## Disinformation ecosystem and computational propaganda in the Telegram app
+## ElasticSearch and R Language for the Analysis of Political Violence on Telegram
 
-**Descrição**: Este projeto propõe estabelecer uma estrutura de mapeamento e análise multi-método de redes de extrema -direita no Telegram, onde recentemente observou-se um aumento no fluxo de usuários e na criação de grupos e canais. Visando monitorar possíveis atividades de propaganda computacional e operações coordenadas de influência ao longo dos próximos dois anos, o projeto combina análises computacionais baseadas na abordagem da linguística de corpus (LC) e técnicas de processamento de linguagem natural (NLP) com uma abordagem qualitativa mista de análise de discurso e etnografia online. Além de buscar a existência de instrumentos de automação para potencializar a distribuição de conteúdo no Telegram, o presente projeto inclui uma etapa complementar de análise qualitativa dos padrões semiótico-discursivos dos conteúdos circulados.
+**Description**: As an undergraduate research fellow at the [Digital Humanities Laboratory](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.labhd.ufba.br/&ved=2ahUKEwiYtIS7vuiGAxWwlJUCHV1eC8kQFnoECAcQAQ&usg=AOvVaw2nQk5YH_WgD74kk0T291Gc) (UFBA), I work on developing scripts in R for data manipulation and quantitative and qualitative analysis of the [Multiplatform Disinformation Ecosystem](https://revista.internetlab.org.br/publicos-refratados-grupos-de-extrema-direita-brasileiros-na-plataforma-telegram/) using ElasticSearch.
 
-Situação: Em andamento; Natureza: Pesquisa.
-Integrantes: Leonardo Fernandes Nascimento - Coordenador / Eric Brasil Nepomuceno - Integrante / Paulo F. C. Fonseca - Integrante / Leticia Maria Costa da Nóbrega Cesarino - Integrante / Vítor Mussa Tavares Gomes - Integrante / Rosana Moore - Integrante.
+Status: Ongoing; Nature: Undergraduate Research.
 
-Financiamento: CNPq.
+Members: Ruan Arthur Lima Santos - Research Fellow / [Leonardo Fernandes Nascimento](http://lattes.cnpq.br/7141811368487014) - Coordinator
 
-## Webs craping and Digital Humanities: Sociology, History and Political Science
+Funding: UFBA_IC.
 
-**Descrição**: O objetivo do projeto é criar ferramentas de coleta e análise de dados de redes sociais digitais, websites e repositórios de dados públicos através da articulação de: a) Linguagens de programação: R, Python, Java e PHP para webscraping e/ou data mining; b) Ferramentas de CAQDAS (computer assisted qualitative data analysis software) tais como ATLAS.ti e; c) Ferramentas de visualização de dados: Gephi, NodeXL, Netvizz.
+## Fatherhood Among Men of Different Generations
 
-Situação: Em andamento; Natureza: Desenvolvimento tecnológico.
-Instituição de execução: UFBA
+**Description**: Research aimed at investigating perceptions of fatherhood among men of different generations.
+
+Status: Ongoing; Nature: Independent Research.
+
+Members: [Brenda Pimentel Damasceno Ferreira](http://lattes.cnpq.br/3253078924254008) / Ruan Arthur Lima Santos
